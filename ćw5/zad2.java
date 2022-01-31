@@ -1,27 +1,33 @@
 import java.util.Scanner;
 
-public class zad2 {
-
-    public static String[] wpisz(String[] stab){
+public class zad2 
+{
+    public static String[] wpisz(String[] stab)
+    {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Uzupełnij prosze tablice: ");
-        for (int i = 0; i < stab.length; i++) {
+        for (int i = 0; i < stab.length; i++) 
+        {
             System.out.print(i+1 + ". ");
             stab[i] = input.nextLine();
         }
+
         input.close();
         return stab;
     }
 
-    public static void wypiszTAB(String[] stab){
+    public static void wypiszTAB(String[] stab)
+    {
         System.out.println("\nTwoja tablica: ");
-        for (int i = stab.length; i > 0; i--) {
+        for (int i = stab.length; i > 0; i--) 
+        {
             System.out.println(i + ". " + stab[i-1]);
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         /* zad.2
         a) stworzyc tablicę typu String[6],
         b) napisać metodę która uzupełni tablicę wartościami podawanymi z klawiatury

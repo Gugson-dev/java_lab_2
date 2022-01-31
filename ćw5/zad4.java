@@ -1,14 +1,17 @@
-public class zad4 {
-
-    public static int metoda(int a, int b){
+public class zad4 
+{
+    public static int metoda(int a, int b)
+    {
         return a + b;
     }
 
-    public static int metoda(int a, int b, int c){
+    public static int metoda(int a, int b, int c)
+    {
         return a + b + c;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         /* zad.4
         a) napisać metodę która przyjmuje 2 parametry typu int i zwraca ich sumę, którą przypiszemy do zmiennej,
             coś takiego:                                    zmiennaA = metoda(1, 2); <-- wywołanie metody

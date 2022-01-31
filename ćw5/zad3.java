@@ -1,43 +1,51 @@
 import java.util.Scanner;
 
-public class zad3 {
-
+public class zad3 
+{
     /* 
 
                           v  WEDŁUG ZALECEŃ  v
 
-    public static void dane(String imie){
+    public static void dane(String imie)
+    {
         System.out.prinln(imie);
     }
 
-        public static void dane(String imie, String nazwisko){
+    public static void dane(String imie, String nazwisko)
+    {
         System.out.prinln(imie + "\n" + nazwisko);
     }
 
-        public static void dane(String imie, String nazwisko, int wiek){
+    public static void dane(String imie, String nazwisko, int wiek)
+    {
         System.out.prinln(imie + "\n" + nazwisko + "\n" + wiek);
     }
+
     */
 
-    public static void dane(String imie){
+    public static void dane(String imie)
+    {
         System.out.println("====================== IMIE ======================");
         System.out.println("Twoje imie: " + imie + "\n");
     }
 
-    public static void dane(String imie, String nazwisko){
+    public static void dane(String imie, String nazwisko)
+    {
         System.out.println("================= IMIE + NAZWISKO ================");
         System.out.println("Twoje imie: " + imie);
         System.out.println("Twoje nazwisko: " + nazwisko + "\n");
     }
 
-    public static void dane(String imie, String nazwisko, int wiek){
+    public static void dane(String imie, String nazwisko, int wiek)
+    {
         System.out.println("============= IMIE + NAZWISKO + WIEK =============");
         System.out.println("Twoje imie: " + imie);
         System.out.println("Twoje nazwisko: " + nazwisko);
         System.out.println("Twój wiek: " + wiek + "\n");
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         /* zad.3
         a) napisać metodę która przyjmuje 1 parametr typu String, metoda nic nie zwraca, tylko
             wyświetla w konsoli string który ma być waszym imieniem,
