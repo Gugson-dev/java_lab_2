@@ -1,14 +1,14 @@
 import java.util.Random;
 
-public class zad2 {
-
-    public static void main(String[] args) {
-
+public class zad2 
+{
+    public static void main(String[] args) 
+    {
         /* zad 2
-        a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
-          przeiterować tablicę po elementach i wyswietlić, użyć pętli while
-        b) jak wyżej tylko dla tablicy typu double[],
-        c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
+            a) stworzyć tablicę typu int wielkosci 5, przypisac jej dowolne wartości,
+            przeiterować tablicę po elementach i wyswietlić, użyć pętli while
+            b) jak wyżej tylko dla tablicy typu double[],
+            c) jak wyżej dla tablicy String[], przeiterować i wyświetlić od ostatniego elementu
         */
 
         Random rand = new Random();
@@ -21,7 +21,8 @@ public class zad2 {
 
         System.out.print("=========================");
         System.out.println("\nWypis tablic:");
-        while (k != 5) {
+        while (k != 5) 
+        {
             System.out.printf("========== %d ============\n", k+1);
             itab[k] = rand.nextInt(100);
             System.out.println("- INT - " + itab[k]);
@@ -30,8 +31,7 @@ public class zad2 {
             System.out.println("- STRING - " + stab[k]);
             k++;
         }
-            System.out.print("=========================");
 
-
+        System.out.print("=========================");
     }
 }
